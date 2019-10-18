@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_cornor_10"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/delete"
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="4dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="#e3e5ea" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_cancle"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select_item"
+                android:gravity="center"
+                android:text="@string/cancle"
+                android:textColor="@color/seekbar_color"
+                android:textSize="16dp" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="#edeff3" />
+
+            <Button
+                android:id="@+id/btn_sure"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select_item"
+                android:gravity="center"
+                android:text="@string/sure"
+                android:textColor="@color/seekbar_color"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

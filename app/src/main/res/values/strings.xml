@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VideoPlayer</string>
+    <string name="record_video">录制的视频</string>
+    <string name="play_list">播放记录</string>
+    <string name="video">视频</string>
+    <string name="edit">编辑</string>
+    <string name="setting">设置</string>
+    <string name="wechat_video">微信视频</string>
+    <string name="storage">内部存储</string>
+    <string name="mp4_video">MP4视频</string>
+    <string name="delete">删除</string>
+    <string name="cancle">取消</string>
+    <string name="sure">确定</string>
+    <string name="open_list">启用播放记录</string>
+    <string name="open_list_info">关闭后将不再记录播放历史，有已存在的记录会被清空</string>
+    <string name="filter">自动过滤短视频</string>
+    <string name="filter_info">小于100K的视频不会列出，微信视频除外</string>
+    <string name="loop_play">循环播放</string>
+
+</resources>
